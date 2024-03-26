@@ -1,0 +1,72 @@
+.container {
+    text-align: center;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    background-color: rosybrown;
+    position: relative;
+    margin-inline: 70vh;
+    margin-top: 2%;
+    height: 75vh;
+}
+
+.container .login {
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container .login input{
+    border: none;
+    outline: none;
+    display: inline-block;
+    height: 5vh;
+    vertical-align: middle;
+    position: relative;
+    bottom: 14px;
+    right: 9px;
+    border-radius: 22px;
+    width: 220px;
+    box-sizing: border-box;
+    padding: 0 18px;
+    margin-bottom: 5vh
+}
+
+.container .login button {
+    background: rgba(157,62,106,33);
+    color: #fff;
+    left: 2vh;
+    top: 4vh;
+    width: 15vh;
+    cursor: pointer;
+    border-radius: 5vh;
+    border-left-color: #320A28;
+    box-sizing: border-box;
+    height: 4vh;
+}
+
+.uploadimg{
+    overflow: hidden;
+    height: 12vh;
+    width: 12vh;
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+    img{
+        height: 12vh;
+        width: 12vh;
+    }
+    .uploadtext{
+        position: absolute;
+        display: flex;
+        background-color: slategray;
+        text-align: center;
+        bottom: 0;
+        width: 100%;
+        cursor: pointer;
+    }
+    #avatar{
+        display: none;
+    }
+}

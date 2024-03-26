@@ -1,0 +1,164 @@
+.header{
+    display: flex;
+    background-color: #c79dce;
+    height: 1%;  
+    width: 100%;   
+    img{
+        height: 8vh;
+        width: 8vh;
+        margin: 1vh;
+        margin-left: 20vh;
+        margin-top: 10%;
+    }  
+    h1{
+        color: purple;
+        padding-left: 10vh;
+    }
+    button{
+        cursor: pointer;
+        border-radius: 2vh;
+        border-left-color: #320A28;
+        box-sizing: border-box;
+        height: 4vh;
+        background-color:mediumpurple;
+        margin-left: 2vh;
+    }
+}
+
+.active{
+    background-color: purple;
+}
+nav {
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: sticky;
+    top: 0;
+    float: right;
+    margin-right: 0%;
+    margin-left: 40vh;
+  }
+  ul {
+    display: flex;
+    li{
+        list-style: none;
+    }
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    border-radius: 0.5rem;
+}
+nav ul li a:not(.active):hover {
+    background-color: lightpink ;
+}
+
+.footer{
+    height: 8vh;
+    width: 100%;
+    background-color:slategray;
+    margin-top: auto;
+    position: fixed;
+    bottom: 0vh;
+    display: flex;
+    .follow{
+        margin-top: auto;
+        margin-bottom: auto;
+        vertical-align: middle;
+        margin-left: 5vh;
+        display: flex;
+        place-items: center;
+    }
+    .download{
+        margin-top: auto;
+        vertical-align: middle;
+        place-items:center;    
+        margin-left: auto;
+        margin-right: 0vh;
+        display: flex;
+        margin-right: 5vh;
+        .icon{
+            size: 2vh;
+        }
+        p{
+            font-size: 2.5vh;
+            font-weight: 600;
+            color: white;
+        }
+    }
+    .spaceBetween{
+    width: 2vh;
+    }
+}
+.main{
+    padding-inline: 10vh;
+    padding-top: 5vh;
+}
+
+.seachbar{
+    margin-top: 2%;
+    text-align: center;
+    input{
+        margin-left: 2vh;
+        border-radius: 2vh;
+        width: 80vh;
+        height: 5vh;
+        box-sizing: border-box;
+        display: inline-block;
+        text-indent: 2vh;
+    }   
+}
+
+.result{
+    margin-top: 5vh;
+    height: auto;
+    width: auto;
+    margin-left: 5vh;
+    column-gap: 3vh ;
+    row-gap: 3vh;
+    display: grid;
+    grid-template-columns: 40vh 40vh 40vh 40vh;
+    .searchdatabox{
+        background-color: rgb(210, 190, 218);;
+        height: 50vh;
+        width: 40vh;
+        img{
+            height: 40vh;
+            width: 40vh;
+        }
+    }
+}
+
+.about{
+    display: inline-flex;
+    margin-top: 5vh;
+    .aboutmetext{
+        padding-left: 5vh;
+        .intro{
+            .hii{
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-size: 110%;
+                display: inline-flex;
+                padding-right: 2vh;
+            }
+            .myname{
+                font-family: "Alex Brush", cursive;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 150%;
+                display: inline-flex;
+            }
+        }
+    }
+}
+
+.ownerimage{
+    height: 50%;
+    width: 50%;
+}

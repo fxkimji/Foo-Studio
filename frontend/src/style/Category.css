@@ -1,0 +1,22 @@
+.main{
+    padding-inline: 5vh;
+    padding-top: 5vh;
+}
+.Category{
+    height: auto;
+    width: auto;
+    margin-left: 5vh;
+    column-gap: 3vh ;
+    row-gap: 3vh;
+    display: grid;
+    grid-template-columns: 40vh 40vh 40vh 40vh;
+    .categoryitems{
+        background-color: rgb(210, 190, 218);;
+        height: 50vh;
+        width: 40vh;
+        img{
+            height: 40vh;
+            width: 40vh;
+        }
+    }
+}

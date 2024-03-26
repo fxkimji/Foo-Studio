@@ -1,0 +1,134 @@
+.recipecard{
+    background-color: yellow;
+    height: 25vh;
+    width: 20vh;
+    display: inline-block;
+    margin: 1%;
+
+    img{
+        height: 20vh;
+        width: 20vh;
+    }
+}
+todaytop10{
+    width: 100%;
+    display: flex;
+    overflow:hidden;
+}
+
+.main{
+    padding-inline: 5vh;
+    /* padding-top: 5vh; */
+}
+.Quote{
+    text-align: center;
+    .Q2{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 110%;
+        display: inline-flex;
+        padding-right: 2vh;
+    }
+    .Q1{
+        font-family: "Alex Brush", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 150%;
+        display: inline-flex;
+    }
+}
+
+.category{
+    width: 180vh;
+    height: 40vh;
+    display: inline-flex;
+    position: relative;
+}
+
+.categorycard{
+    margin-inline: 1vh;
+    height: 35vh;
+    width: 30vh;
+    background-color: rgb(210, 190, 218);
+    text-align: center;
+    cursor: pointer;
+    img{
+        margin-top: 2vh;
+        height: 75%;
+        width: 75%;
+        padding: 2vh;
+        border-radius: 20%;
+    }
+    h4{
+        font-size: larger;
+        margin-bottom: auto;
+    }
+    border-radius: 20%;
+}
+.categorycard :hover{
+    color: blueviolet;  
+}
+
+
+.courses{
+    width: 150vh;
+    height: 40vh;
+    display: inline-flex;
+    position: relative;
+    margin-inline: 10vh;
+    text-align: center;
+    align-items: center;
+    .coursescard{
+        padding-inline: 5vh;
+        cursor:pointer;
+        img{
+            height: 20vh;
+            width: 20vh;
+            border-radius: 50%;
+        }
+    }
+}
+
+
+.cookbook{
+    display: flex;
+    width: 100%;
+    background-color: grey;
+    align-items: center; 
+    justify-content: space-between;
+    .cookbookimg{
+        margin-left: auto ;
+        margin-right: 5vh;
+        width: 25%;
+        img{
+            height: 50vh;
+            width: 50vh;
+        }
+    }
+
+    .cookbooktext{
+        width: 50%;
+        text-align: center;
+        vertical-align: middle;
+        h1{
+        font-family: "Alex Brush", cursive;
+        font-style: normal;
+        font-size: 5vh
+        }
+        h2{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-size: 110%;
+        }
+        p{
+            font-size: 2.5vh;
+        }
+        .cookbookinputs{
+            input{
+                height: 3vh;
+                margin-inline: 1vh;
+            }
+            button{
+                height: 3vh;
+            }
+        }
+    }
+}
